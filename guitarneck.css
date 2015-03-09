@@ -1,0 +1,31 @@
+.divTable
+    {
+        display:  table;
+        width:auto;
+        border-spacing:10px;
+    }
+
+.divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+
+.led
+    {
+        float:left;
+        display:table-column;
+        border-radius: 50%/50%; 
+		width: 25px;
+		height: 25px;
+    }
+    
+.off
+	{
+		background: black;
+    }
+    
+.on
+	{
+		background: yellow;
+    }
